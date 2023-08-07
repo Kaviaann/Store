@@ -1,0 +1,181 @@
+:root{
+    --white: white;
+    --black: rgb(24, 24, 24);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: linear-gradient(rgb(218, 64, 218),rgba(255, 0, 0, 0.441),rgb(81, 174, 210));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+*{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.8;
+    margin-top: 10px;
+    margin-inline: 50px;
+    margin-bottom: -5px;
+}
+
+.logo .icon {
+    text-align: center;
+
+}
+
+.logo .icon a{
+    text-decoration: none;
+    font-size: 1.25em;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.logo h4{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+
+    font-size: 1.6em;
+    position: relative;
+
+    letter-spacing: -1px;
+}
+
+.navbar{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    padding-inline: 20px;
+    padding-block: 30px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.313);
+}
+
+.navbar a{
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px solid rgba(255, 255, 255, 0.221);
+    padding:10px 20px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.564);
+}
+
+.navbar .link{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.sidebar {
+    padding: 10px 0px 0px 0px;
+    padding-bottom: 20px;
+    border-right: 2px solid rgba(255, 255, 255, 0.313);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.313);
+    width: clamp(10px,250px,249px);
+    height: clamp(100%,76vh,76vh);
+    border-radius: 5px;
+    float: left;
+    margin:0px 20px 20px 0px;
+    background-color: rgba(255, 255, 255, 0.279);
+    border-top-left-radius: 0px;
+}
+
+.sidebar .text h4,p {
+    font-size: 1em;
+    margin:10px;
+}
+
+
+.sidebar ul{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.sidebar ul li a{
+    cursor: pointer;
+}
+
+.productHeader {
+    margin-block: 10px;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-right: 20px;
+    max-width: 600px;
+}
+
+.product{
+    background-color: rgba(255, 255, 255, 0.279);
+    height: 185px;
+    border-radius: 5px;
+    width: 134px;
+    margin-bottom: 20px;
+}
+
+.product a{
+    text-decoration: none;
+}
+
+.product img{
+    width: 120px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.container .product h4{
+    display: block;
+    color: white;
+    position: relative;
+    top: 4px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.container .product article{
+    display: block;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-inline: 5px;
+    top: 7px;
+    font-size: 0.8em;
+    opacity: 0.8;
+    letter-spacing: -0.5px;
+}
+
+/* responsive */
+
+@media (max-width: 896px) {
+    .navbar{
+        margin-top: 0px;
+        gap: 30px;
+    }
+}
