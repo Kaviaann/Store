@@ -56,6 +56,10 @@ body{
     letter-spacing: -1px;
 }
 
+.logo a{
+    text-decoration: none;
+    
+}
 .navbar{
     margin-top: -30px;
     display: flex;
@@ -118,7 +122,7 @@ body{
     margin-block: 10px;
 }
 
-.container {
+#container {
     display: flex;
     margin-top: 20px;
     flex-wrap: wrap;
@@ -127,6 +131,8 @@ body{
     margin-right: 20px;
     max-width: 600px;
 }
+
+
 
 .product{
     background-color: rgba(255, 255, 255, 0.279);
@@ -143,10 +149,10 @@ body{
 .product img{
     width: 120px;
     position: relative;
-    left: 5px;
+    left: 5.25px;
     top: 5px;
     border-radius: 5px;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.507);
 }
 
 .container .product h4{

@@ -1,0 +1,26 @@
+.cscontainer {
+    display: flex;
+    flex-direction: column;
+    margin-block: 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cscontainer .boxcs{
+    border: 2px solid rgba(0, 0, 0, 0.121);
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.cscontainer .boxcs a{
+
+}
+
+.cscontainer .boxcs a button{
+    background-color: rgba(255, 255, 255, 0.16);
+    padding: 20px clamp(100px,100px,100px);
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.559);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
+}

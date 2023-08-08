@@ -2,3 +2,15 @@
   margin:15px;
 }
 
+.container {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin-right: 20px;
+}
+
+#product{
+  width: 100%;
+}
