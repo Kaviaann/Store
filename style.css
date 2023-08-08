@@ -46,7 +46,7 @@ body{
     cursor: pointer;
 }
 
-.logo h4{
+.StoreName{
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
 
@@ -57,14 +57,13 @@ body{
 }
 
 .navbar{
-    margin-top: -50px;
+    margin-top: -30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    align-content: center;
-    padding-inline: 20px;
+    align-items: space-between;
     padding-block: 30px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.313);
 }
@@ -171,6 +170,12 @@ body{
     letter-spacing: -0.5px;
 }
 
+ion-icon{
+    position: relative;
+    top: 2px;
+    left: 3.72px;
+}
+
 /*close*/
 
 .close {
@@ -187,7 +192,10 @@ body{
     .navbar{
         margin-top: 0px;
         gap: 30px;
-        justify-content: start;
+        row-gap: 40px;
+        flex-wrap:wrap-reverse;
+        justify-content: space;
+        height: 40px;
     }
   
   
@@ -199,5 +207,36 @@ body{
       float: none;
       display: flex;
       width: 100%;
+    }
+}
+
+@media (max-width:621px){
+    .navbar{
+        margin-top: 0px;
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media (max-width: 470px) {
+    .navbar{
+        height: auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:320px){
+    .navbar{
+        flex-direction: row;
+        justify-content:start;
+        padding-left: 20px;
+    }
+
+    .link{
+        transform: scale(0.9);
+    }
+
+    .container{
+        margin-inline: 0px;
+        gap: 10px;
     }
 }

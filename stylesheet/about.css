@@ -1,0 +1,36 @@
+.AboutContainer{
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 905px;
+    background-color: rgba(255, 255, 255, 0.263);
+    border: 2px solid rgba(255, 255, 255, 0.365);
+    border-radius: 5px;
+}
+
+.AboutContainer .StoreName{
+    margin-block: 20px;
+    font-size: 2em;
+}
+
+.AboutContainer .text{
+    text-transform: capitalize;
+    margin-inline: 2%;
+}
+
+.AboutContainer .text ul{
+    margin-inline: 6%;
+    margin-block: 20px;
+    letter-spacing: 0.5px;
+    background-image: linear-gradient(rgba(247, 138, 247, 0.363),rgba(255, 255, 255, 0.285),rgba(184, 184, 255, 0.349));
+    border-radius: 5px;
+    padding-left: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.457);
+}
+
+.AboutContainer .text ul li{
+    margin-block: 5px;
+}
