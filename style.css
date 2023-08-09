@@ -15,6 +15,7 @@ body{
     background-image: linear-gradient(rgb(218, 64, 218),rgba(255, 0, 0, 0.441),rgb(81, 174, 210));
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 *{
@@ -70,6 +71,7 @@ body{
     align-items: space-between;
     padding-block: 30px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.313);
+
 }
 
 .navbar a{
@@ -78,6 +80,11 @@ body{
     border: 2px solid rgba(255, 255, 255, 0.221);
     padding:10px 20px;
     box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.564);
+    transition: all 0.5s ease;
+}
+
+.navbar a:hover{
+    background-color: rgba(255, 255, 255, 0.384);
 }
 
 .navbar .link{
@@ -140,10 +147,18 @@ body{
     border-radius: 5px;
     width: 134px;
     margin-bottom: 20px;
+    transition: all 0.5s ease;
 }
 
 .product a{
     text-decoration: none;
+
+}
+
+.product:hover{
+    background-color: rgba(255, 255, 255, 0.121);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.354);
+    filter: brightness(1);
 }
 
 .product img{

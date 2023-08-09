@@ -11,12 +11,12 @@
     border: 2px solid rgba(0, 0, 0, 0.121);
     padding: 10px;
     border-radius: 30px;
+    transition: all 1s ease;
 }
 
-.cscontainer .boxcs:hover, .boxcs a button:hover{
+.cscontainer .boxcs:hover{
     box-shadow: 0px 0px 10px white;
-    transition: all;
-    transition-duration: 1s;
+
 }
 
 .cscontainer .boxcs a{
