@@ -155,7 +155,7 @@ body{
     border: 2px solid rgba(255, 255, 255, 0.507);
 }
 
-.container .product h4{
+.product h4{
     display: block;
     color: white;
     position: relative;
@@ -164,7 +164,7 @@ body{
     letter-spacing: -1px;
 }
 
-.container .product article{
+.product article{
     display: block;
     color: white;
     position: relative;

@@ -9,12 +9,18 @@
 
 .cscontainer .boxcs{
     border: 2px solid rgba(0, 0, 0, 0.121);
-    padding: 8px;
+    padding: 10px;
     border-radius: 30px;
 }
 
-.cscontainer .boxcs a{
+.cscontainer .boxcs:hover, .boxcs a button:hover{
+    box-shadow: 0px 0px 10px white;
+    transition: all;
+    transition-duration: 1s;
+}
 
+.cscontainer .boxcs a{
+    cursor: pointer;
 }
 
 .cscontainer .boxcs a button{
@@ -23,4 +29,5 @@
     border-radius: 5px;
     border: 2px solid rgba(255, 255, 255, 0.559);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
+    cursor: pointer;
 }
